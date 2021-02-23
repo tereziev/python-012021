@@ -19,6 +19,3 @@ if kodSoucastky in sklad:
         sklad.pop(kodSoucastky)
 else:
     print(f"Součáskta {kodSoucastky} není skladem.")
-
-    
-
