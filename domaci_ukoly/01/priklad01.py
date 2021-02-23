@@ -15,4 +15,3 @@ if cisloBaliku in baliky:
         print("Balík zatím nebyl předán kurýrovi.")
 else:
     print("Neplatné číslo balíku.")
-
