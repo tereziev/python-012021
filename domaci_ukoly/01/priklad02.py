@@ -20,3 +20,5 @@ if kodSoucastky in sklad:
 else:
     print(f"Součáskta {kodSoucastky} není skladem.")
 
+    
+
