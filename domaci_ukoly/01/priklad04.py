@@ -48,7 +48,19 @@ morseCode = {
 
 message = input("Zadejte zprávu, kteru chcete převézt do morseovky: ")
 
+#řešení bez mezer:
+
 for sign in message:
-        for code in morseCode:
-            if sign == code:
-                print(morseCode[sign], end=" ")
+        #for code in morseCode:
+        #    if sign == code:
+        #        print(morseCode[sign], end=" ")
+        print(morseCode[sign], end=" ")
+
+#řešení s mezerami mezi slovy ve větě:
+
+if sign in morseCode:
+    print(morseCode[sign], end=" ")
+elif sign == " ":
+    print('/', end=" ")
+else:
+    print('??', end=" ")
